@@ -1,0 +1,157 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('jim.jpg');
+    height: 10cm;
+    /* width: 500px; */
+
+
+}
+
+.left {
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.mid {
+    /* border: 3px solid rgb(101, 129, 0); */
+    width: 700px;
+    display: block;
+    margin: 35px auto;
+}
+
+.right {
+    /* border: 3px solid rgb(84, 14, 214); */
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    /* float: right; block elements only has property float */
+}
+
+.nevbar li {
+    display: inline-block;
+}
+
+.nevbar li a {
+    padding: 25px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.nevbar li a:hover {
+    color: rgb(199, 196, 196);
+    text-decoration: underline;
+}
+
+.left img {
+    width: 80px;
+    /* filter: invert(100%); */
+}
+
+.left img:hover {
+    filter: opacity(90%);
+    cursor: pointer;
+}
+
+.left div {
+    text-align: center;
+}
+
+/* .left div:hover {
+    color: gray;
+    cursor: pointer;
+} */
+
+.btn {
+    color: white;
+    /* background: rgb(230, 17, 17); */
+    background-color: rgb(226, 30, 30);
+    margin:1px 1px;
+    padding: 1px 1px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 29);
+    background-color: rgb(153, 75, 75);
+}
+
+.container {
+    /* border: 3px solid green; */
+    margin: 31px 600px;
+    padding: 80px 100px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.inc {
+    font-size: 60px;
+}
+
+.state {
+    font-size: 30px;
+}
+
+.container p {
+    color: rgb(255, 255, 255);
+}
+
+.register {
+    /* backgroud-color: red; */
+    background-color: rgb(226, 30, 30);
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 250px;
+    color: white;
+}
+
+.register:hover {
+    color: rgb(255, 255, 29);
+    background-color: rgb(153, 75, 75);
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+.box {
+    /* border: 2px solid red; */
+    width: 550px;
+    margin: -500px auto;
+    padding: 100px 10px;
+    border-radius: 50px;
+    float: left;
+}
+
+.box input {
+    display: block;
+    text-align: center;
+    width: 204px;
+    margin: 18px auto;
+    padding: 2px 40px;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box button {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+.down{
+    /* border: 2px solid rebeccapurple; */
+    width: 500px;
+    margin: auto;
+    margin-top: 550px;
+}
